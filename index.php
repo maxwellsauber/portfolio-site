@@ -4,7 +4,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 $from_email = "max@maxsauber.com";
-$subject = "SOMEBODY VISITED MY PORTFOLIO!!!";
+$subject = "SOMEBODY VISITED MY PORTFOLIO!!!!!!!!!!!!!!!!";
 
 putenv("TZ=US/Eastern");					// set time zone
 $today= date("l, F dS, Y - h:i:s A");		//date output
@@ -20,7 +20,7 @@ $user_ip_location = "http://www.ip2location.com/$user_ip";
 //email body
 
 $mailbody .=
-"SOMEBODY VISITED MY PORTFOLIO!!! \n 
+"SOMEBODY VISITED MY PORTFOLIO!!!!!!!!!!!!! \n 
 IP: $user_ip\n
 IP Location: <a href='$user_ip_location'>View location</a>\n
 Date: $today";
