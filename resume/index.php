@@ -9,8 +9,8 @@ $subject = "SOMEBODY VISITED MY RESUME!!!!!!!";
 putenv("TZ=US/Eastern");					// set time zone
 $today= date("l, F dS, Y - h:i:s A");		//date output
 
-if (getenv(HTTP_CLIENT_IP)){ 
-$user_ip = getenv(HTTP_CLIENT_IP); 
+if (getenv('HTTP_CLIENT_IP')){ 
+$user_ip = getenv('HTTP_CLIENT_IP'); 
 } 
 else { 
 $user_ip = getenv(REMOTE_ADDR); 
