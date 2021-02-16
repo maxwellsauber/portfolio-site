@@ -1,0 +1,177 @@
+/* CSS Document */
+body {
+	font-family: MuseoSans-500, sans-serif;
+}
+h1, h2, h3, h4 {
+	font-weight: normal;
+	color: #003150;
+}
+h1{
+	font-size:32px;
+}
+a, a:active, a:visited {
+	color: #005580;
+	text-decoration:underline;
+	
+}
+a:hover {
+	color: #DF7A00;
+	text-decoration: none;
+}
+
+strong {
+	font-weight: normal;
+	font-family:MuseoSans-700;
+}
+
+#masthead{
+	background-color:#003150;
+	color:#fff;
+	margin-bottom:30px;
+	padding:10px 0 10px 0;
+}
+
+.btn-go{
+
+	color:#fff !important;
+	text-decoration:none;
+	background-color: #7baa38;
+    border-color: #7baa38;
+}
+.btn-go:hover {
+    color: #fff;
+    background-color: #6a9130;
+    border-color: #6a9130;
+}
+
+
+.panel-body h3{margin-top:0px; padding-top:0px;}
+.panel-heading{background-color: #ebf3f7 !important;}
+
+.table{margin-bottom:30px;}
+
+
+
+.quick-btn {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  padding-top: 16px;
+  margin: 10px;
+  color: #444444;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 0 0 0 1px #F8F8F8 inset, 0 0 0 1px #CCCCCC;
+  box-shadow: 0 0 0 1px #F8F8F8 inset, 0 0 0 1px #CCCCCC;
+  border-radius:10px;
+}
+.no-activity{
+	color:#999999 !important;
+}
+
+.quick-btn .label {
+  background-color:#003150;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.btn-metis-4 {
+  color: #ffffff;
+  background-color: #a264e7;
+  border-color: #62309a;
+}
+
+
+#campaign-info{margin:10px 0 15px 0; padding:3px;}
+
+/*Eligible Policy Chart*/
+ canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+		margin-bottom:15px;
+    }
+
+
+/*Policy Table*/
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #EBEBEB;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #F5F5F5;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #f7fff1;
+}
+
+.table thead tr{
+background-color:#ebf3f7;
+}
+
+#policy-table_wrapper{
+margin-bottom:30px;
+}
+
+.pagination>.active>a{
+	background-color:#569bbe !important;
+	border-color:#569bbe !important;
+}
+
+/*Previous Campaigns*/
+#previous-campaigns .lead{
+	margin-bottom:0px;
+}
+
+
+
+
+/*REGISTRATION PAGE*/
+
+.agency-info, .individual-info, .general-info{
+	display:none;
+}
+
+
+
+/* Popover Body */
+.popover-content {
+   
+    padding: 25px;
+	width:275px;
+}
+.pop{
+	font-size: 30px;
+    display: inline;
+    position: absolute;
+    top: -1px;
+    right: 31px;
+    height: 35px;
+	
+}
+.pop:focus{
+	outline:none;
+}
+
+
+
+
+@font-face {
+	font-family: 'MuseoSans-700';
+	src: url('../fonts/eot/style_159306.eot?#iefix') format('embedded-opentype'), url('../fonts/woff/style_159306.woff') format('woff'), url('../fonts/ttf/style_159306.ttf') format('truetype'), url('../fonts/svg/style_159306.svg#MuseoSans-700') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSans-300';
+	src: url('../fonts/eot/style_159305.eot?#iefix') format('embedded-opentype'), url('../fonts/woff/style_159305.woff') format('woff'), url('../fonts/ttf/style_159305.ttf') format('truetype'), url('../fonts/svg/style_159305.svg#MuseoSans-300') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSans-500';
+	src: url('../fonts/eot/style_159303.eot?#iefix') format('embedded-opentype'), url('../fonts/woff/style_159303.woff') format('woff'), url('../fonts/ttf/style_159303.ttf') format('truetype'), url('../fonts/svg/style_159303.svg#MuseoSans-500') format('svg');
+}
+@font-face {
+	font-family: 'MuseoSans-500Italic';
+	src: url('../fonts/eot/style_159309.eot?#iefix') format('embedded-opentype'), url('../fonts/woff/style_159309.woff') format('woff'), url('../fonts/ttf/style_159309.ttf') format('truetype'), url('../fonts/svg/style_159309.svg#MuseoSans-500Italic') format('svg');
+}
